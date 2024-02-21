@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #C3E8E7;
     color: #333;
 }
 header, section, footer {
@@ -13,10 +13,18 @@ header, section, footer {
 
 header {
     text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color:  #2AAA8A;
+    padding: 5px 20px;
+}
+
+header p{
+    color: #00382a;
 }
 
 h1 {
-    color:  #2AAA8A;
+    color: white;
 }
 
 h2 {
@@ -37,19 +45,19 @@ footer {
     padding: 20px;
     font-weight: bold;
     background-color:  #2AAA8A;
-    color: #ffffff;
+    color: #0c5f74;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 footer a{
     text-decoration: none;
-    color: #0c5f74;
+    color: white;
 }
 
 footer a:hover{
     text-decoration: none;
-    color: #6200ff;
+    color: #6AFCBD;
 }
 
 #idiomas {
@@ -62,6 +70,7 @@ footer a:hover{
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 20px;
+    background-color: #f4f4f4;
 }
 
 .language {
